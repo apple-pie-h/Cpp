@@ -1,15 +1,16 @@
-#include <iostream.h>
-#include<conio.h>
- int a=10 ; // global a
-void main( )
-{ clrscr( );
- int a=15 ; // a redeclared, local to main
-cout << “\n Local a=” <<a<<
- “Global a =” << : : a ;
- : : a=20 ;
- cout<< “\n Local a=”<<a
- << “Global a<<: : a ;
- getch();
- }
+#include <iostream>
 
-::
+int a = 10; // global a
+
+int main() {
+  // clrscr();
+
+  int a = 15; // a redeclared, local to main
+  std::cout << "\n Local a=" << a << " Global a =" << ::a << std::endl;
+
+  ::a = 20;
+  std::cout << "\n Local a=" << a << " Global a =" << ::a << std::endl;
+  return 0;
+}
+
+//::-> scope resolution operator (used to declare global variables)
