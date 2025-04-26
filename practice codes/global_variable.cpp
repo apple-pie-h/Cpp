@@ -14,3 +14,7 @@ int main() {
 }
 
 //::-> scope resolution operator (used to declare global variables)
+/* Output:
+ Local a=15 Global a =10
+ Local a=15 Global a =20
+*/
