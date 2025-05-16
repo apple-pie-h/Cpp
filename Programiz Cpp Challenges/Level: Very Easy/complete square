@@ -1,0 +1,24 @@
+
+//programiz compiler: 
+int completeSquare(int num) {
+    return num*num;
+}
+
+/*
+#include<iostream>
+using namespace std;
+
+
+
+int completeSquare(int num) {
+    return num*num;
+}
+int main(){
+    int num;
+    cout<<"num = ";
+    cin >>num;
+    cout<<completeSquare(num);
+    return 0;
+}
+
+*/
