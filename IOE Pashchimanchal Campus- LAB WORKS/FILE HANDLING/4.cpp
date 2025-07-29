@@ -12,7 +12,7 @@ int main()
     int roll;
     long int tel;
     ifstream in;
-    in.open("student_info.tct",ios::in);
+    in.open("student_info.txt",ios::in);
     in>>name>>roll>>add>>tel;
 while(in)
 {
