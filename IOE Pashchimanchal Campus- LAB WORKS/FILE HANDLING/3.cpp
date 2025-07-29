@@ -22,7 +22,7 @@ int main()
         cout<<"Enter roll: ";cin>>roll;
         cout<<"Enter address: ";cin>>add;
         cout<<"Enter telephone: ";cin>>tel;
-        cout<<name<<"\t"<<roll<<"\t"<<add<<"\t"<<tel<<endl;
+        out<<name<<"\t"<<roll<<"\t"<<add<<"\t"<<tel<<endl;
     }
     cout<<"File written.";
     out.close();
